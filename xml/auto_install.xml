@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CustomData>
+  <CustomGroups>
+    <CustomGroup>
+      <name>Do_Not_Contact_Until</name>
+      <title>Do Not Contact Until</title>
+      <extends>Contact</extends>
+      <style>Inline</style>
+      <collapse_display>0</collapse_display>
+      <help_pre>&lt;p&gt;Allows a contact&amp;#39;s Do Not Contact preferences to be marked with dates when that preference will expire.&lt;/p&gt;</help_pre>
+      <help_post></help_post>
+      <weight>472</weight>
+      <is_active>1</is_active>
+      <table_name>civicrm_value_do_not_contact_until</table_name>
+      <is_multiple>0</is_multiple>
+      <collapse_adv_display>0</collapse_adv_display>
+      <created_date>2014-05-07 10:23:49</created_date>
+      <is_reserved>0</is_reserved>
+    </CustomGroup>
+  </CustomGroups>
+  <CustomFields>
+    <CustomField>
+      <name>Do_not_phone_until</name>
+      <label>Do not phone until</label>
+      <data_type>Date</data_type>
+      <html_type>Select Date</html_type>
+      <is_required>0</is_required>
+      <is_searchable>0</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>1</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <start_date_years>0</start_date_years>
+      <date_format>dd/mm/yy</date_format>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>do_not_phone_until</column_name>
+      <custom_group_name>Do_Not_Contact_Until</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Do_not_email_until</name>
+      <label>Do not email until</label>
+      <data_type>Date</data_type>
+      <html_type>Select Date</html_type>
+      <is_required>0</is_required>
+      <is_searchable>0</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>2</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <start_date_years>0</start_date_years>
+      <date_format>dd/mm/yy</date_format>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>do_not_email_until</column_name>
+      <custom_group_name>Do_Not_Contact_Until</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Do_not_mail_until</name>
+      <label>Do not mail until</label>
+      <data_type>Date</data_type>
+      <html_type>Select Date</html_type>
+      <is_required>0</is_required>
+      <is_searchable>0</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>3</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <start_date_years>0</start_date_years>
+      <date_format>dd/mm/yy</date_format>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>do_not_mail_until</column_name>
+      <custom_group_name>Do_Not_Contact_Until</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Do_not_sms_until</name>
+      <label>Do not sms until</label>
+      <data_type>Date</data_type>
+      <html_type>Select Date</html_type>
+      <is_required>0</is_required>
+      <is_searchable>0</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>4</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <start_date_years>0</start_date_years>
+      <date_format>dd/mm/yy</date_format>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>do_not_sms_until</column_name>
+      <custom_group_name>Do_Not_Contact_Until</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Do_not_trade_until</name>
+      <label>Do not trade until</label>
+      <data_type>Date</data_type>
+      <html_type>Select Date</html_type>
+      <is_required>0</is_required>
+      <is_searchable>0</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>5</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <start_date_years>0</start_date_years>
+      <date_format>dd/mm/yy</date_format>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>do_not_trade_until</column_name>
+      <custom_group_name>Do_Not_Contact_Until</custom_group_name>
+    </CustomField>
+  </CustomFields>
+</CustomData>
