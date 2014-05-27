@@ -35,15 +35,17 @@ class CRM_Donotcontactuntil_Upgrader extends CRM_Donotcontactuntil_Upgrader_Base
 
   // Currently commented out due to a possible bug
   // http://forum.civicrm.org/index.php/topic,32770.0.html
-  /*private static function deletefieldbyid($id) {
+  /*
+  private static function deletefieldbyid($id) {
     $result = civicrm_api('CustomField', 'delete', array(
       'version'    => 3,
       'sequential' => 1,
       'id'         => $id,
     ));
-    watchdog('Do_Not_Contact_Until', 'CustomField delete result: ' . print_r($result, TRUE), array(), WATCHDOG_DEBUG);
+    CRM_Core_Error::debug_log_message('Do_Not_Contact_Until uninstaller, CustomField delete result: ' . print_r($result, TRUE), FALSE);
     return !civicrm_error($result);
-  }*/
+  }
+  */
 
   // This is a hack while the above is out of action.
   private static function deletefieldmanually($cgid, $cgTable, $column_name) {
