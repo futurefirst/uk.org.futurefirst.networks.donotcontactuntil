@@ -1,5 +1,5 @@
 Package: uk.org.futurefirst.networks.donotcontactuntil
-Copyright (C) 2014, David Knoll <david@futurefirst.org.uk>
+Copyright (C) 2014, Future First <david@futurefirst.org.uk>
 Licensed under the GNU Affero Public License 3.0 (below).
 
 -------------------------------------------------------------------------------

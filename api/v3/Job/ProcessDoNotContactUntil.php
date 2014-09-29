@@ -61,7 +61,7 @@ EOT;
  * @throws API_Exception
  */
 function civicrm_api3_job_processdonotcontactuntil($params) {
-  $dncuDebug = TRUE;
+  $dncuDebug = FALSE;
   if ($dncuDebug) {
     // NB watchdog is Drupal only, using Civi debug logging instead
     CRM_Core_Error::debug_log_message('Job.ProcessDoNotContactUntil: begin', FALSE);
