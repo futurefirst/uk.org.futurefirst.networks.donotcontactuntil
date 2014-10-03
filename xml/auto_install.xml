@@ -15,7 +15,6 @@
       <table_name>civicrm_value_do_not_contact_until</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2014-05-07 10:23:49</created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
   </CustomGroups>
