@@ -4,9 +4,9 @@
   <name>Do Not Contact Until</name>
   <description>Allows a contact's Do Not Contact preferences to be marked with dates when that preference will expire.</description>
   <urls>
-    <url desc="Documentation">https://github.com/futurefirst/donotcontactuntil/wiki</url>
+    <url desc="Documentation">https://github.com/futurefirst/uk.org.futurefirst.networks.donotcontactuntil/wiki</url>
     <url desc="On CiviCRM.org">https://civicrm.org/extensions/do-not-contact-until</url>
-    <url desc="On GitHub">https://github.com/futurefirst/donotcontactuntil</url>
+    <url desc="On GitHub">https://github.com/futurefirst/uk.org.futurefirst.networks.donotcontactuntil</url>
     <url desc="Future First">http://www.futurefirst.org.uk/</url>
   </urls>
   <license>AGPL-3.0</license>
@@ -14,8 +14,8 @@
     <author>David Knoll</author>
     <email>david@futurefirst.org.uk</email>
   </maintainer>
-  <releaseDate>2015-01-09</releaseDate>
-  <version>1.03</version>
+  <releaseDate>2015-07-03</releaseDate>
+  <version>1.04</version>
   <compatibility>
     <ver>4.4</ver>
     <ver>4.5</ver>
